@@ -1,0 +1,17 @@
+[
+  {
+    "query": "зерно",
+    "expected_keywords": ["зерно", "grain", "пшеница"],
+    "min_weight": 5
+  },
+  {
+    "query": "уголь",
+    "expected_keywords": ["уголь", "coal", "каменный"],
+    "min_weight": 10
+  },
+  {
+    "query": "нефть",
+    "expected_keywords": ["нефть", "oil", "сырая"],
+    "min_weight": 20
+  }
+]
