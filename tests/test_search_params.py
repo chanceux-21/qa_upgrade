@@ -30,4 +30,4 @@ def test_cargo_search_parametrized(browser, data):
     weights = main_page.get_cargo_weights()
     assert all(w >= data["min_weight"] for w in weights), (
         f"Найден груз с весом меньше {data['min_weight']} тонн"
-    )
+    )   
